@@ -1,2 +1,91 @@
-# Tulip_Error_Inline
-lightweight Delphi IDE plugin that brings modern, inline error and warning displays directly into the code editor exactly where they happen! at the same line
+# Tulip Error Inline for Delphi IDE
+
+للغة العربية انقر [هنا](#arabic-version) او انتقل لما بعد الجزء الانكليزي
+
+**Tulip Error Inline** is a lightweight Delphi IDE plugin that brings modern, inline error and warning displays directly into the code editor. Stop constantly looking down at the Messages view—see your compilation errors exactly where they happen!
+
+
+https://github.com/user-attachments/assets/a44aee10-84eb-4536-b6bb-8fa21c8d7005
+
+
+<img width="770" height="573" alt="Screenshot 2026-03-11 at 03 32 20" src="https://github.com/user-attachments/assets/43035642-9167-483d-a0a5-dc4360e9462b" />
+
+## ✨ Features
+* **Inline Display:** Shows compiler errors, warnings, and hints directly at the end of the line in the active code editor.
+* **Modern Experience:** Provides a coding experience similar to modern editors like VS Code or Visual Studio.
+* **Customizable:** Configure colors and display settings directly from the Delphi `Tools -> Options -> Third Party -> Tulip Error Inline` menu.
+
+## ⚙️ Compatibility
+This plugin has been tested with:
+* RAD Studio / Delphi 13 Athens
+It should work on Delphi 11, 12..
+It Can't run on Delphi 10.4 or lower.
+
+## 🚀 Installation
+
+### Option 1: Install via Package (Recommended)
+1. Clone or download this repository to your machine.
+2. Open the Delphi IDE.
+3. Open the package file `TulipErrorInline.dproj` (or `.dpk`).
+4. In the Project Manager, right-click on the package and select **Build**.
+5. Right-click again and select **Install**.
+6. You should see a confirmation message that the package has been installed. Restarting the IDE is usually **not** required.
+
+### Option 2: GetIt Package Manager
+* S O O N*
+
+## 🛠️ Usage
+Once installed, the plugin works automatically. 
+
+## 📄 License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 👨‍💻 Author
+**SAMER ASSIL**
+* GitHub: [@SamerAssil](https://github.com/SamerAssil)
+
+
+
+<a id="arabic-version"></a>
+
+# إضافة Tulip Error Inline لبيئة Delphi IDE
+
+**Tulip Error Inline** هي إضافة (Plugin) خفيفة لبيئة تطوير دلفي (Delphi IDE)، تجلب لك تجربة عرض الأخطاء والتحذيرات الحديثة مباشرةً داخل محرر الأكواد (Inline). توقف عن النظر باستمرار إلى نافذة الرسائل (Messages view) في الأسفل — شاهد أخطاء الترجمة (Compilation errors) بالضبط في المكان الذي تحدث فيه!
+
+https://github.com/user-attachments/assets/a44aee10-84eb-4536-b6bb-8fa21c8d7005
+
+<img width="770" height="573" alt="Screenshot 2026-03-11 at 03 32 20" src="https://github.com/user-attachments/assets/43035642-9167-483d-a0a5-dc4360e9462b" />
+
+## ✨ الميزات
+* **عرض مدمج (Inline Display):** يعرض أخطاء المترجم (Compiler errors)، والتحذيرات، والتلميحات مباشرة في نهاية السطر البرمجي داخل محرر الأكواد النشط.
+* **تجربة حديثة:** يوفر تجربة كتابة أكواد مشابهة للمحررات الحديثة مثل VS Code أو Visual Studio.
+* **قابلة للتخصيص:** يمكنك تكوين الألوان وإعدادات العرض مباشرة من قائمة دلفي عبر المسار: `Tools -> Options -> Third Party -> Tulip Error Inline`.
+
+## ⚙️ التوافق
+تم اختبار هذه الإضافة مع:
+* RAD Studio / Delphi 13 Athens
+من المفترض أن تعمل بشكل جيد على Delphi 11 و Delphi 12.
+لا يمكن تشغيلها على Delphi 10.4 أو الإصدارات الأقدم.
+
+## 🚀 التثبيت
+
+### الخيار الأول: التثبيت عبر الحزمة (موصى به)
+1. قم باستنساخ (Clone) أو تنزيل هذا المستودع إلى جهازك.
+2. افتح بيئة Delphi IDE.
+3. افتح ملف الحزمة `TulipErrorInline.dproj` (أو `.dpk`).
+4. في مدير المشاريع (Project Manager)، انقر بزر الماوس الأيمن على الحزمة واختر بناء (**Build**).
+5. انقر بزر الماوس الأيمن مرة أخرى واختر تثبيت (**Install**).
+6. من المفترض أن تظهر لك رسالة تأكيد بنجاح تثبيت الحزمة. عادةً **لا** يتطلب الأمر إعادة تشغيل الـ IDE.
+
+### الخيار الثاني: مدير الحزم GetIt Package Manager
+* قـريـبـاً *
+
+## 🛠️ الاستخدام
+بمجرد التثبيت، تعمل الإضافة تلقائياً بشكل مباشر. 
+
+## 📄 الترخيص
+موزعة بموجب ترخيص MIT. راجع ملف `LICENSE` لمزيد من المعلومات.
+
+## 👨‍💻 المبرمج
+**سامر أصيل (SAMER ASSIL)**
+* جيت هاب (GitHub): [@SamerAssil](https://github.com/SamerAssil)
