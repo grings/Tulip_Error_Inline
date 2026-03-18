@@ -32,7 +32,7 @@ It Can't run on Delphi 10.4 or lower.
 6. You should see a confirmation message that the package has been installed. Restarting the IDE is usually **not** required.
 
 ### Option 2: GetIt Package Manager
-* S O O N*
+<img width="914" height="660" alt="Screenshot 2026-03-18 at 23 24 42" src="https://github.com/user-attachments/assets/8cb54f9b-a2e9-47a3-b799-c63096c9717f" />
 
 ## 🛠️ Usage
 Once installed, the plugin works automatically. 
@@ -84,9 +84,11 @@ https://github.com/user-attachments/assets/a44aee10-84eb-4536-b6bb-8fa21c8d7005
 6. من المفترض أن تظهر لك رسالة تأكيد بنجاح تثبيت الحزمة. عادةً **لا** يتطلب الأمر إعادة تشغيل الـ IDE.
 
 ### الخيار الثاني: مدير الحزم GetIt Package Manager
-* قـريـبـاً *
+<img width="914" height="660" alt="Screenshot 2026-03-18 at 23 24 42" src="https://github.com/user-attachments/assets/8cb54f9b-a2e9-47a3-b799-c63096c9717f" />
 
-## 🛠️ الاستخدام
+
+## 🛠️ الاستخدام![Uploading Screenshot 2026-03-18 at 23.24.42.png…]()
+
 بمجرد التثبيت، تعمل الإضافة تلقائياً بشكل مباشر.
 - تاكد من هذا الخيار ( موضح في الصورة ) .
 <img width="761" height="564" alt="Screenshot 2026-03-12 at 18 26 12" src="https://github.com/user-attachments/assets/80d1b464-4aad-4ee8-ae1c-7bac3505bdc5" />
