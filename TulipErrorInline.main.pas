@@ -183,19 +183,13 @@ begin
     var errorLineWidth: integer;
     errorLineWidth := canvas.TextWidth(pchar(ErrorText)) + 20;
     TargetRect.width := errorLineWidth;
-//    TargetRect.Left := EditorWidth - errorLineWidth;
     TargetRect.Right := EditorWidth;
     TargetRect.height := canvas.TextHeight(pchar(ErrorText));
+    TargetRect.Left := FCodeLineWidth + Integer(ErrorIndent);
 
-//    if ErrorAlign = eaLeft then
-    if ErrorAlign = eaLeft then
-      TargetRect.Left := FCodeLineWidth + Integer(ErrorIndent)
-      else
+    if ErrorAlign = eaRight then
         TargetRect.Right := EditorWidth - Integer(ErrorIndent);
 
-
-//    else
-//      TargetRect.Left := EditorWidth - errorLineWidth;
 
     canvas.font.color := msgtextColor;
     canvas.Brush.color := msgbgColor;
@@ -213,6 +207,9 @@ begin
       DrawFlags := DrawFlags or DT_LEFT
       else
         DrawFlags := DrawFlags or DT_RIGHT ;
+
+    if TargetRect.Width > EditorWidth - FCodeLineWidth then
+      DrawFlags := DrawFlags or DT_LEFT;
 
     Winapi.Windows.DrawText(Canvas.Handle, PChar(ErrorText), -1, TargetRect, DrawFlags);
     Canvas.Font.Assign(FEditorFont);
